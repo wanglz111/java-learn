@@ -24,6 +24,7 @@ public class SmallChangeSys {
             System.out.println("请输入操作编号:");
             String typeString = scanner.nextLine();
             int type = Integer.parseInt(typeString);
+            scanner.close();
             switch (type) {
                 case 1:
                     System.out.println(details);

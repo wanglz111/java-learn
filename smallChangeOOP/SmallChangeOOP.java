@@ -30,11 +30,13 @@ public class SmallChangeOOP {
         // 校验money
         if (money < 0) {
             System.out.println("收益入账金额不能小于0");
+            scanner.close();
             return;
         }
         date = new Date();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
         details += "收益入账\t" + "+" + money + "\t" + sdf.format(date) + "\t" + balance + "\n";
+        scanner.close();
     }
 
     public void pay() {
@@ -46,6 +48,7 @@ public class SmallChangeOOP {
         money = Double.parseDouble(costString);
         if (balance < money) {
             System.out.println("余额不足");
+            scanner.close();
             return;
         }
         balance -= money;
@@ -54,6 +57,7 @@ public class SmallChangeOOP {
         sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
         money = -money;
         details += place + "\t\t" + money + "\t" + sdf.format(date) + "\t" + balance + "\n";
+        scanner.close();
     }
 
     public void exit() {
@@ -67,6 +71,7 @@ public class SmallChangeOOP {
         if (confirm.equals("Y")) {
             loop = false;
         }
+        scanner.close();
     }
 
     public static void main(String[] args) {
@@ -81,6 +86,7 @@ public class SmallChangeOOP {
             System.out.println("4.退出");
             System.out.println("请输入操作编号:");
             String number = scanner.nextLine();
+            scanner.close();
             switch (number) {
                 case "1":
                     smallChangeOOP.details();
