@@ -1,4 +1,4 @@
-package smallChange;
+package src.smallChange;
 
 import java.util.Scanner;
 import java.text.SimpleDateFormat;

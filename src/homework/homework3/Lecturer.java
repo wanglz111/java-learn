@@ -1,4 +1,4 @@
-package homework.homework3;
+package src.homework.homework3;
 
 public class Lecturer extends Teacher {
 

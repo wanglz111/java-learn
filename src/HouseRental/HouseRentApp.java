@@ -1,6 +1,6 @@
-package HouseRental;
+package src.HouseRental;
 
-import HouseRental.view.HouseView;
+import src.HouseRental.view.HouseView;
 
 public class HouseRentApp {
     public static void main(String[] args) {

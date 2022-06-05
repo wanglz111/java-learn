@@ -1,4 +1,4 @@
-package HouseRental.model;
+package src.HouseRental.model;
 
 public class House {
     private int houseId = 1;

@@ -1,6 +1,6 @@
-package HouseRental.service;
+package src.HouseRental.service;
 
-import HouseRental.model.House;
+import src.HouseRental.model.House;
 
 public class HouseService {
     House[] houseList;

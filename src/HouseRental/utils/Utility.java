@@ -1,4 +1,4 @@
-package HouseRental.utils;
+package src.HouseRental.utils;
 
 import java.util.*;
 /**

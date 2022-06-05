@@ -1,10 +1,10 @@
-package HouseRental.view;
+package src.HouseRental.view;
 
-import HouseRental.utils.Utility;
+import src.HouseRental.utils.Utility;
 
-import HouseRental.model.House;
+import src.HouseRental.model.House;
 
-import HouseRental.service.HouseService;
+import src.HouseRental.service.HouseService;
 
 public class HouseView {
 

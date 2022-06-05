@@ -1,4 +1,4 @@
-package smallChangeOOP;
+package src.smallChangeOOP;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

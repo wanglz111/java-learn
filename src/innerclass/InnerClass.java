@@ -3,14 +3,14 @@ package src.innerclass;
 public class InnerClass {
     public static void main(String[] args) {
         OuterClass outerClass = new OuterClass();
-        outerClass.print();
+        new OuterClass.InnerClass().print();
     }
 }
 
-class OuterClass {X
+class OuterClass {
     private String name;
 
-    class InnerClass {
+    static class InnerClass {
         public void print() {
             System.out.println("InnerClass");
         }
